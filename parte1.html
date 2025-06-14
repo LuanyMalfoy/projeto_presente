@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dias dos Namorados</title>
+    <link rel="stylesheet" href="parte2.css">
+   
+</head>
+<body>
+    
+    <div class="painel">
+        <h1 class="nome">Feliz Dia dos Namorados</h1>     
+        <img id="img" src="https://gifman.net/wp-content/uploads/2019/06/ursinho-fofo-apaixonado.gif" alt="">
+        <h2>Aceita passar o resto da vida cmg?</h2>
+
+        <button id="sim"><a href="file:///C:/Users/luany/Desktop/presente/parte4.html">Sim!</a></button>
+        <button onmouseover="fuja()" id="nao"><a href="#">Não!</a></button>
+
+    </div>
+   <script>
+      function fuja(){
+         var botaoNao = document.getElementById("nao");
+
+         var larguraJanela = window.innerWidth;
+         var alturaJanela = window.innerHeight;
+
+         var maxX = larguraJanela - botaoNao.offsetWidth;
+         var maxY = alturaJanela - botaoNao.offsetHeight;
+
+         var aleatorioX = Math.floor(Math.random() * maxX);
+         var aleatorioY = Math.floor(Math.random() * maxY);
+
+         botaoNao.style.left = aleatorioX + "px";
+         botaoNao.style.top = aleatorioY + "px";
+        }
+    </script>
+</body>
+</html>

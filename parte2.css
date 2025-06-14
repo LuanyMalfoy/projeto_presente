@@ -1,0 +1,164 @@
+body{
+    background-color: #d70000;
+    background-image: url(Heart\ Love\ Sticker\ -\ Find\ &\ Share\ on\ GIPHY.gif);
+}
+
+.painel{
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#sim{
+  width: 60px;
+  height: 40px;
+  background-color: #d70000;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 15px;
+  margin-left: -90px;
+}
+#nao{
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  background-color: #d70000;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 15px;
+  margin-left: 30px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+ @media (max-width: 768px) {
+          h1 {
+              font-size: 2rem;
+          }
+
+          h2 {
+              font-size: 1.3rem;
+          }
+
+          button {
+              width: 80px;
+              height: 35px;
+              font-size: 14px;
+          }
+
+          #img {
+              max-width: 250px;
+          }
+
+          .painel {
+              padding: 20px;
+          }
+
+          .buttons-container {
+              gap: 15px;
+          }
+      }
+
+      @media (max-width: 480px) {
+          h1 {
+              font-size: 1.7rem;
+          }
+
+          h2 {
+              font-size: 1.2rem;
+          }
+
+          button {
+              width: 70px;
+              height: 30px;
+              font-size: 12px;
+          }
+
+          #img {
+              max-width: 200px;
+          }
+
+          .painel {
+              width: 90%;
+              padding: 15px;
+          }
+
+          .buttons-container {
+              gap: 10px;
+          }
+      }
+
+/*@media (max-width: 768px) {
+          h1 {
+              font-size: 2rem;
+          }
+
+          h2 {
+              font-size: 1.3rem;
+          }
+
+          button {
+              width: 80px;
+              height: 35px;
+              font-size: 14px;
+          }
+
+          #img {
+              max-width: 250px;
+          }
+
+          .painel {
+              padding: 20px;
+          }
+
+          #nao {
+              width: 80px;
+              display: block;
+              font-size: 14px;
+              left: 50%;
+              top: 150px;
+              transform: translateX(-50%);
+          }
+      }
+
+@media (max-width: 480px) {
+          h1 {
+              font-size: 1.7rem;
+          }
+
+          h2 {
+              font-size: 1.2rem;
+          }
+
+          button {
+              width: 70px;
+              height: 30px;
+              font-size: 12px;
+          }
+
+          #img {
+              max-width: 200px;
+          }
+
+          .painel {
+              width: 90%;
+              padding: 15px;
+          }
+
+          #nao {
+              width: 70px;
+              display: block;
+              font-size: 12px;
+              left: 50%;
+              top: 200px;
+              transform: translateX(-50%);
+          }
+      }*/
